@@ -11,6 +11,26 @@
      object-fit: cover;
 } */
 
+.nav {
+  display: flex;
+  background-color: yellow;
+  padding: 1rem;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.nav__list-item {
+  text-decoration: none;
+  font-size: 2rem;
+  color: blueviolet;
+}
+
 .section {
   min-height: 100vh;
   width: 100%;

@@ -18,7 +18,23 @@ const weekdays = [
 
 function load() {
   const dt = new Date();
-  console.log(dt);
+
+  const day = dt.getDay();
+  const month = dt.getMonth();
+  const year = dt.getFullYear();
+
+  const firstDayOfMonth = new Date(year, month, 1);
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+  const dateString = firstDayOfMonth.toLocaleDateString("en-us", {
+    weekday: "long",
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  });
 }
+
+const PaddingDays = weekdays.indexOf(dateString.split(", ")[0]);
+console.log(PaddingDays);
 
 load();

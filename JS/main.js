@@ -1,6 +1,6 @@
 const searchForm = document.querySelector("form");
 const searchResultDiv = document.querySelector(".search-result");
-const container = document.querySelector(".container");
+const container = document.querySelector(".section__container");
 let searchQuery = "";
 const APP_ID = "e19ab49f";
 const APP_key = "63465b8117da7ae4cc2a995cf35bd28b";

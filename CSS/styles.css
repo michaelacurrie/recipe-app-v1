@@ -13,7 +13,7 @@
 
 .nav {
   display: flex;
-  background-color: yellow;
+  background-color: rgb(65, 65, 65);
   padding: 1rem;
 }
 
@@ -28,7 +28,9 @@
 .nav__list-item {
   text-decoration: none;
   font-size: 2rem;
-  color: blueviolet;
+  color: rgb(255, 255, 255);
+  font-family: jost;
+  font-size: 18px;
 }
 
 .section {
@@ -50,8 +52,18 @@
   text-align: center;
   font-family: jost, sans-serif;
   font-size: 4rem;
-  color: rgb(151, 38, 38);
+  color: rgb(255, 255, 255);
   margin-bottom: 40px;
+}
+
+.section__message {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+  color: black;
+  font-weight: 600;
+  padding-left: 445px;
+  padding-bottom: 20px;
 }
 
 .form {

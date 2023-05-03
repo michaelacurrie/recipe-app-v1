@@ -34,7 +34,7 @@ function generateHTML(results) {
               <a  class="view-button" href=${result.recipe.url}>View Recipe</a>
             </div>
             <p class="item-data">Calories: ${result.recipe.calories.toFixed(
-              2
+              0
             )}</p>
           </div>
 

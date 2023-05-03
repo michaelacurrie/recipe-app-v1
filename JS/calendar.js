@@ -32,9 +32,11 @@ function load() {
     month: "numeric",
     day: "numeric",
   });
+
+  const PaddingDays = weekdays.indexOf(dateString.split(", ")[0]);
+  console.log(PaddingDays);
 }
 
-const PaddingDays = weekdays.indexOf(dateString.split(", ")[0]);
-console.log(PaddingDays);
+
 
 load();

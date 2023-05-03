@@ -33,6 +33,13 @@
   font-size: 18px;
 }
 
+.nav__list-item a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
 .section {
   min-height: 100vh;
   width: 100%;
